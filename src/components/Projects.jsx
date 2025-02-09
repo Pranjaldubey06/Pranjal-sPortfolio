@@ -1,6 +1,6 @@
 const ProjectCard = ({ image, title, description, link }) => {
   return (
-    <article className="relative max-w-sm bg-gray-800 rounded overflow-hidden shadow-lg group">
+    <article id="projects" className="relative max-w-sm bg-gray-800 rounded overflow-hidden shadow-lg group flex items-center justify-center ml-12">
       <div className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-10"></div>
 
       <div className="relative z-10">

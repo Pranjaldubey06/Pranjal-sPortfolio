@@ -34,15 +34,14 @@ function About() {
           data-aos-delays="500"
           className="text-center lg:text-left relative"
         >
-          <div className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-10"></div>
+          <div className="absolute z-0 w-50  h-50   sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-60 -top-5 left-5"></div>
           <header>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 mt-16 sm:mt-24">
               About Me
             </h1>
           </header>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
-            quasi alias voluptatum sapiente magnam itaque quam vitae?
+           Hello I am Pranjal Passionate web-developer with a kean eye for Front-end development with a background in IT.
           </p>
           <footer>
             <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none bg-purple-800 rounded-full text-lg cursor-pointer">

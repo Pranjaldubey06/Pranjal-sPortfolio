@@ -68,7 +68,7 @@ function Skills() {
     //   <img src={Robot} alt="Robot Icon" className="absolute z-10 right-2 top-2 sm:right-16 sm:top-32 transform rotate-12 w-24 h-auto sm:w-32 opacity-70" />
     // </section>
     <section
-      id="Skills"
+      id="skills"
       className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center text-white px-4 py-10 bg-gray-950"
     >
       <div className="absolute z-0 w-72 h-36 sm:w-86 sm:h-44 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 top-10 sm:top-28 left-1/2 transform -translate-x-1/2"></div>

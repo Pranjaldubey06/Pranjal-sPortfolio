@@ -1,26 +1,6 @@
-// import { useRef } from "react";
 import Robot from "../assets/Robot.webp";
-// import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  // const form = useRef();
-  // const sendEmail = async (e) => {
-  //   e.preventDefault();
-  
-  //   try {
-  //     const result = await emailjs.sendForm(
-  //       'service_y564klo',  // Replace with your actual service ID
-  //       'template_36e02kd', // Replace with your actual template ID
-  //       form.current,
-  //       'ZokpJIVB7tMiyoEvb'  // Replace with your correct public key
-  //     );
-  //     console.log("Email sent successfully:", result.text);
-  //   } catch (error) {
-  //     console.error("Error sending email:", error); // Log the full error to understand more
-  //     alert(`Error: ${error.text}`);
-  //   }
-  // };
-  
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -34,13 +14,18 @@ const Contact = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json"
+        Accept: "application/json",
+         
       },
-      body: json
+      body: json,
     }).then((res) => res.json());
 
     if (res.success) {
       console.log("Success", res);
+      alert("Form Submitted Successfully!"); 
+      event.target.reset(); 
+    } else {
+      alert("Failed to submit form. Please try again.");
     }
   };
 
@@ -65,7 +50,7 @@ const Contact = () => {
           Contact <span className="text-purple-400">Me</span>
         </h2>
 
-        <form  onSubmit={onSubmit}>
+        <form onSubmit={onSubmit}>
           <div className="mb-4">
             <label className="block text-gray-300 text-sm mb-2" htmlFor="name">
               Name
