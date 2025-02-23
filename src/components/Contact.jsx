@@ -15,8 +15,8 @@ const Contact = () => {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-         
-      },
+    },
+
       body: json,
     }).then((res) => res.json());
 

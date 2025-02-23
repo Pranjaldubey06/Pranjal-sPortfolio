@@ -1,4 +1,4 @@
-import Robot from "../assets/Robot.webp"; // ✅ Fix path if needed
+import Robot from "../assets/Robot.webp"; // ✅ 
 
 const skillData = [
   {
@@ -86,7 +86,7 @@ function Skills() {
             <br /> and <span className="text-purple-400">Skills</span>
           </h1>
           <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, harum!
+            I have strong knowledge in these below technologies.
           </p>
         </header>
 
