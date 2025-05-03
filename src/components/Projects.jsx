@@ -47,10 +47,10 @@ export default function Projects() {
       link: "https://social-media-app-with-context-api-on-reactjs.vercel.app/",
     },
     {
-      image: "https://static.vecteezy.com/system/resources/previews/001/266/865/non_2x/booking-flight-on-a-mobile-app-vector.jpg",
-      title: "Airline Reservation System",
-      description: "A web app to book and manage airline tickets.",
-      link: "https://example.com/airline-reservation",
+      image: "https://multichannelmerchant.com/wp-content/uploads/2019/05/amazonsouq850.jpg",
+      title: "E-commerce Amazon clone",
+      description: "It is a e-commerce website looking like amazon and working like amazon",
+      link: "https://vercel.com/pranjal-dubeys-projects/reduxwebsite",
     },
     {
       image: "https://media.licdn.com/dms/image/v2/D4E12AQH21Aqf0JgKAg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1714862944544?e=2147483647&v=beta&t=r55jHd6OAUfkFLKZt-Iyx-5Gtep3PyNWV8gMiBO2a4k",
@@ -63,6 +63,12 @@ export default function Projects() {
       title: "Todo-list App",
       description: "A to-do list app to create, organize, and track tasks.",
       link: "https://my-todo-app-rosy.vercel.app/",
+    },
+    {
+      image: "https://www.shutterstock.com/image-photo/person-using-smartphone-interact-friendly-600nw-2482428287.jpg",
+      title: "ChatBot_App",
+      description: "AI Chat App which answers and reply your questions-answer ",
+      link:"https://vercel.com/pranjal-dubeys-projects/chatbotapplication",
     },
   ];
 
