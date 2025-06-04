@@ -7,11 +7,7 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -22,7 +18,8 @@ function Navbar() {
     { id: 1, name: "Home", link: "#home" },
     { id: 2, name: "About", link: "#about" },
     { id: 3, name: "Skills", link: "#skills" },
-    { id: 4, name: "My Projects", link: "#projects" },
+    { id: 4, name: "Projects", link: "#Projects" },
+    
   ];
 
   return (
@@ -50,13 +47,15 @@ function Navbar() {
               {link.name}
             </a>
           ))}
-          <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg">
+          <a
+            href="#Contact"
+            className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg"
+          >
             Contact
-          </button>
+          </a>
         </nav>
       </div>
 
-      {/* Mobile Navigation */}
       <div
         className={`${
           isOpen ? "block" : "hidden"
@@ -75,9 +74,13 @@ function Navbar() {
             {link.name}
           </a>
         ))}
-        <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg">
+        <a
+          href="#Contact"
+          onClick={() => setIsOpen(false)}
+          className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg"
+        >
           Contact
-        </button>
+        </a>
       </div>
     </header>
   );

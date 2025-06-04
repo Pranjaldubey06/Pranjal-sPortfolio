@@ -1,4 +1,4 @@
-import Robot from "../assets/Robot.webp"; // ✅ 
+import Robot from "../assets/Robot.webp";  
 
 const skillData = [
   {

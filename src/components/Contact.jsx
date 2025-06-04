@@ -1,5 +1,4 @@
-import Robot from "../assets/Robot.webp";
-
+import ProfileMain from "../assets/ProfileMain.png"
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -31,7 +30,7 @@ const Contact = () => {
 
   return (
     <section
-      id="contact"
+      id="Contact"
       data-aos="fade-up"
       data-aos-delay="300"
       className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12 md:py-20 bg-gray-900"
@@ -39,7 +38,7 @@ const Contact = () => {
       <aside className="relative w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
         <div className="absolute z-0 w-72 h-72 md:w-96 md:h-96 bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] rounded-full blur-3xl opacity-50"></div>
         <img
-          src={Robot}
+          src={ProfileMain}
           className="relative z-10 w-72 sm:w-80 md:w-[300px] lg:w-[400px] xl:w-[500px] object-contain animate-pulse"
           alt="Robot Illustration"
         />

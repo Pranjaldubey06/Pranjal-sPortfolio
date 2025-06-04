@@ -1,5 +1,6 @@
  import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Robot from "../assets/Robot.webp";
+// import Robot from "../assets/Robot.webp";
+import ProfileMain from "../assets/ProfileMain.png"
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -61,7 +62,7 @@ function Hero() {
           </motion.div>
 
           <motion.a
-            href="https://drive.google.com/file/d/16e4PB8Fc0EwK3DiaavU0-HsznCzlJ_kg/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1TIMdJH1jZQAaV_stsNcg45n8mP7Q4h_J/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, x: -100 }}
@@ -76,8 +77,8 @@ function Hero() {
 
         <figure className="flex-1 flex justify-center md:justify-end mt-10 md:mt-0">
           <img
-            src={Robot}
-            className="h-[300px] sm:h-[400px] md:h-[485px] w-auto animate-[bounce_5s_infinite]"
+            src={ProfileMain}
+            className="h-[300px] sm:h-[400px] md:h-[485px] w-auto  border rounded-full "
             alt="Robot"
           />
         </figure>
