@@ -11,7 +11,9 @@ function Footer() {
         ))}
       </a>
 
-      <p className="text-sm text-white mt-4 md:mt-0">2025 MY Website. All rights reserved.</p>
+      <p className="text-sm text-white mt-4 md:mt-0">
+        2025 MY Website. All rights reserved.
+      </p>
     </section>
   );
 }

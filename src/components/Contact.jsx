@@ -1,4 +1,4 @@
-import ProfileMain from "../assets/ProfileMain.png"
+import ProfileMain from "../assets/ProfileMain.png";
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -14,15 +14,15 @@ const Contact = () => {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-    },
+      },
 
       body: json,
     }).then((res) => res.json());
 
     if (res.success) {
       console.log("Success", res);
-      alert("Form Submitted Successfully!"); 
-      event.target.reset(); 
+      alert("Form Submitted Successfully!");
+      event.target.reset();
     } else {
       alert("Failed to submit form. Please try again.");
     }
@@ -79,7 +79,10 @@ const Contact = () => {
           </div>
 
           <div className="mb-4">
-            <label className="block text-gray-300 text-sm mb-2" htmlFor="message">
+            <label
+              className="block text-gray-300 text-sm mb-2"
+              htmlFor="message"
+            >
               Message
             </label>
             <textarea

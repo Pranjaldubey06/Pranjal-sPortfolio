@@ -1,85 +1,91 @@
- import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-// import Robot from "../assets/Robot.webp";
-import ProfileMain from "../assets/ProfileMain.png"
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import ProfileMain from "../assets/ProfileMain.png";
 import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="relative overflow-hidden min-h-screen flex flex-col items-center">
-      <div className="absolute inset-0 flex justify-center items-center">
-        <div className="h-[300px] w-[300px] md:h-[400px] md:w-[400px] bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] transform rotate-45 rounded-3xl"></div>
+    <div className="relative min-h-screen bg-black flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 py-16">
+      
+      {/* Decorative Gradient Rotated Div (Centered Behind Content) */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10">
+        <div className="h-[300px] w-[300px] md:h-[400px] md:w-[400px] bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] transform rotate-45 rounded-3xl opacity-30 blur-sm"></div>
       </div>
 
       <main
         id="home"
-        className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full px-6 sm:px-12 md:px-24 lg:px-32 xl:px-52 pb-8 md:pb-24 pt-24 md:pt-32"
+        className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between gap-12 w-full max-w-7xl"
       >
+        {/* Text Section */}
         <motion.section
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex-1 text-center md:text-left"
         >
-          <div className="absolute z-0 w-32 h-32 sm:w-48 sm:h-48 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-5 md:left-10"></div>
-          <header>
-            <motion.h1
-              initial={{ opacity: 0, x: -100 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6"
-            >
-              Pranjal Dubey
-            </motion.h1>
-            <motion.h2
-              initial={{ opacity: 0, x: -100 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.7 }}
-              className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#c744ec] mb-2"
-            >
-              Frontend Developer
-            </motion.h2>
-          </header>
+          {/* Small Circular Blur */}
+          <div className="absolute z-0 w-24 h-24 sm:w-36 sm:h-36 bg-[#cd3cf5] rounded-full blur-3xl opacity-40 -top-8 left-4 sm:left-10"></div>
+
+          <motion.h1
+            initial={{ opacity: 0, x: -60 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4"
+          >
+            Pranjal Dubey
+          </motion.h1>
+
+          <motion.h2
+            initial={{ opacity: 0, x: -60 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="text-xl sm:text-2xl md:text-3xl text-[#c744ec] font-semibold mb-4"
+          >
+            Frontend Developer
+          </motion.h2>
 
           <motion.p
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -60 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.9 }}
-            className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 px-2 sm:px-0"
+            className="text-sm sm:text-base md:text-lg text-gray-300 mb-6"
           >
-           A front-end developer is an artist with code, crafting visually stunning and user-friendly experiences, to bring digital designs to life.
+            A front-end developer is an artist with code, crafting visually
+            stunning and user-friendly experiences to bring digital designs to
+            life.
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -60 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 1.1 }}
-            className="flex justify-center md:justify-start space-x-4 mb-6"
+            className="flex justify-center md:justify-start gap-4 mb-6"
           >
-            <a href="#"><FaLinkedin className="text-white" size={32} /></a>
-            <a href="#"><FaGithub className="text-white" size={32} /></a>
-            <a href="#"><FaFacebook className="text-white" size={32} /></a>
-            <a href="#"><FaInstagram className="text-white" size={32} /></a>
+            <a href="#"><FaLinkedin size={28} className="text-white hover:text-[#0077B5] transition" /></a>
+            <a href="#"><FaGithub size={28} className="text-white hover:text-gray-400 transition" /></a>
+            <a href="#"><FaFacebook size={28} className="text-white hover:text-[#1877F2] transition" /></a>
+            <a href="#"><FaInstagram size={28} className="text-white hover:text-[#E1306C] transition" /></a>
           </motion.div>
 
           <motion.a
             href="https://drive.google.com/file/d/1TIMdJH1jZQAaV_stsNcg45n8mP7Q4h_J/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 1.3 }}
           >
-            <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none bg-purple-800 rounded-full text-lg cursor-pointer">
+            <button className="bg-purple-800 hover:bg-purple-700 transition text-white px-6 py-2 rounded-full text-base sm:text-lg font-medium">
               Download CV
             </button>
           </motion.a>
         </motion.section>
 
-        <figure className="flex-1 flex justify-center md:justify-end mt-10 md:mt-0">
+        
+        <figure className="flex-1 flex justify-center md:justify-end">
           <img
             src={ProfileMain}
-            className="h-[300px] sm:h-[400px] md:h-[485px] w-auto  border rounded-full "
-            alt="Robot"
+            alt="Profile"
+            className="h-[260px] sm:h-[320px] md:h-[420px] lg:h-[485px] w-auto rounded-full border border-white shadow-xl"
           />
         </figure>
       </main>
