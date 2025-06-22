@@ -50,7 +50,7 @@ export default function Projects() {
       title: "NetFlix_Clone",
       description:
         "The Netflix clone project is a web application developed using Reactjs and TailwindCss, aiming to replicate the user interface and some features of the popular streaming service, Netflix.",
-      link: "https://my-netflix-movie-app.vercel.app/"
+      link: "https://movie-app-by-pranjal.vercel.app/"
     },
     {
       image:
