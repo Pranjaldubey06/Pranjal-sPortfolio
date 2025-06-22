@@ -50,7 +50,7 @@ export default function Projects() {
       title: "NetFlix_Clone",
       description:
         "The Netflix clone project is a web application developed using Reactjs and TailwindCss, aiming to replicate the user interface and some features of the popular streaming service, Netflix.",
-      link: "https://my-netflix-movie-lojtwrqso-pranjal-dubeys-projects.vercel.app/",
+      link: "https://my-netflix-movie-app.vercel.app/",
     },
     {
       image:
@@ -101,7 +101,7 @@ export default function Projects() {
         </p>
       </section>
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 cursor-pointer">
         {listProjects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
