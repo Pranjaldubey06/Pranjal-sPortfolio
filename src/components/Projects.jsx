@@ -1,4 +1,4 @@
-const ProjectCard = ({ image, title, description, link }) => {
+const ProjectCard = ({ image, title, description, link }) => { 
   return (
     <article className="relative bg-gray-800 rounded overflow-hidden shadow-lg group flex flex-col items-center justify-between mx-auto w-full h-full ">
       <div className="absolute z-0 w-32 h-32 sm:w-48 sm:h-48 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-10 "></div>
@@ -50,7 +50,7 @@ export default function Projects() {
       title: "NetFlix_Clone",
       description:
         "The Netflix clone project is a web application developed using Reactjs and TailwindCss, aiming to replicate the user interface and some features of the popular streaming service, Netflix.",
-      link: "https://my-netflix-movie-86t59e85y-pranjal-dubeys-projects.vercel.app/",
+      link: "https://my-netflix-movie-lojtwrqso-pranjal-dubeys-projects.vercel.app/",
     },
     {
       image:
@@ -58,7 +58,7 @@ export default function Projects() {
       title: "E-commerce Amazon clone",
       description:
         "It is a e-commerce website looking like amazon and working like amazon",
-      link: "https://vercel.com/pranjal-dubeys-projects/reduxwebsite",
+      link: "https://reduxwebsite-nu.vercel.app/",
     },
     {
       image:
@@ -80,7 +80,7 @@ export default function Projects() {
         "https://www.shutterstock.com/image-photo/person-using-smartphone-interact-friendly-600nw-2482428287.jpg",
       title: "ChatBot_App",
       description: "AI Chat App which answers and reply your questions-answer ",
-      link: "https://vercel.com/pranjal-dubeys-projects/chatbotapplication",
+      link: "https://chatbotapplication.vercel.app/",
     },
   ];
 
