@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const ProjectCard = ({ image, title, description, link }) => { 
   return (
     <article className="relative bg-gray-800 rounded overflow-hidden shadow-lg group flex flex-col items-center justify-between mx-auto w-full h-full ">
@@ -81,6 +82,14 @@ export default function Projects() {
       title: "ChatBot_App",
       description: "AI Chat App which answers and reply your questions-answer ",
       link: "https://chatbotapplication.vercel.app/",
+    },
+
+    {
+      image:
+        "https://www.tatanexarc.com/per/g04/pub/1678/iONAppsHub/instance/Documents/1678/BusinessProfile/1631337309984/png.jpeg",
+      title: "Nuozen Website",
+      description: "Nuozen is an Internet Service Provider (ISP) that was based in Mumbai, India. ",
+      link: "https://nuozen-website.vercel.app/",
     },
   ];
 
