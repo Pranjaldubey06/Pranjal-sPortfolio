@@ -20,9 +20,10 @@ function App() {
 
   return (
     <main className="bg-gray-950">
+      <Navbar />
       <Hero />
       <About />
-      <Navbar />
+    
     
       <Skills />
       <Projects/>
