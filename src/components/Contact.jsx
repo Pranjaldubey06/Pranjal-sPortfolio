@@ -25,9 +25,9 @@ const Contact = () => {
       event.target.reset();
     } else {
       alert("Failed to submit form. Please try again.");
-    }
-  };
-
+    } 
+};
+    
   return (
     <section
       id="Contact"
