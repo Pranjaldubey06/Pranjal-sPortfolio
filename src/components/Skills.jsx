@@ -192,7 +192,7 @@ const skillData = [
   },
   {
     id: 5,
-    image: "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2F8MbtJ4hTAaOk3KPcptqZ&w=3840&q=75",
+    image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
     title: "Next.js",
     description: "Next.js by Vercel is the full-stack React framework for the web.",
   },
@@ -213,6 +213,24 @@ const skillData = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s",
     title: "TailwindCss",
     description: "Tailwind CSS is a utility-first CSS framework for rapidly building websites.",
+  },
+   {
+    id: 9,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghdWGl00O5hS7sDlc98yJT_gszgNh1wwUlQ&s",
+    title: "Java Fullstack",
+    description:"Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible",
+  },
+  {
+    id: 10,
+    image: "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png",
+    title: "MySQL",
+    description:"MySQL is an open source relational database management system (RDBMS) that's used to store and manage data. ",
+  },
+  {
+    id:11,
+    image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg",
+    title: "MongoDB",
+    description:"MongoDB is a NoSQL database that uses a document-oriented data model, where each record is a document stored in a collection, instead of the rows and columns common to popular relational databases, such as MySQL.",
   },
 ];
 
