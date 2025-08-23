@@ -120,7 +120,7 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <div className="relative min-h-screen bg-black flex flex-col items-center justify-center overflow-hidden px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 py-16">
-      {/* Background Gradient Box */}
+  
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10">
         <div className="h-[300px] w-[300px] md:h-[400px] md:w-[400px] bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] transform rotate-45 rounded-3xl opacity-30 blur-sm"></div>
       </div>
@@ -129,7 +129,7 @@ function Hero() {
         id="home"
         className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between gap-12 w-full max-w-7xl"
       >
-        {/* Left Content */}
+  
         <motion.section
           initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0 }}
@@ -154,7 +154,7 @@ function Hero() {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="text-xl sm:text-2xl md:text-3xl text-[#c744ec] font-semibold mb-4"
           >
-            Frontend Developer
+          Web Developer
           </motion.h2>
 
           <motion.p
@@ -163,7 +163,7 @@ function Hero() {
             transition={{ duration: 0.8, delay: 0.9 }}
             className="text-sm sm:text-base md:text-lg text-gray-300 mb-6"
           >
-            A front-end developer is an artist with code, crafting visually
+            A web developer developer is an artist with code, crafting visually
             stunning and user-friendly experiences to bring digital designs to
             life.
           </motion.p>

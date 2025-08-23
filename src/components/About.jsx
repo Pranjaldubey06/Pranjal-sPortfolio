@@ -43,8 +43,7 @@ function About() {
             </h1>
           </header>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Hello I am Pranjal Passionate web-developer with a kean eye for
-            Front-end development with a background in IT.
+           I am a passionate Web Developer with expertise in building modern, responsive, and user-friendly web applications. I enjoy turning ideas into functional and visually appealing digital experiences using technologies like React,Next,JavaScript,HTML,CSS (Tailwind CSS),Java with database like MySQL and MongoDB.
           </p>
           <footer>
             <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none bg-purple-800 rounded-full text-lg cursor-pointer">
