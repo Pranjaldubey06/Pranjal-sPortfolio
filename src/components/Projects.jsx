@@ -86,7 +86,7 @@ export default function Projects() {
 
     {
       image:
-        "https://www.tatanexarc.com/per/g04/pub/1678/iONAppsHub/instance/Documents/1678/BusinessProfile/1631337309984/png.jpeg",
+        "https://infygain.com/uploads/f5906fbd-e8d0-4acc-b9cb-956649a4b0b7best+internet+service+provider+in+coimbatore.webp",
       title: "Nuozen Website",
       description: "Nuozen is an Internet Service Provider (ISP) that was based in Mumbai, India. ",
       link: "https://nuozen-website.vercel.app/",
