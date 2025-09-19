@@ -222,7 +222,7 @@ function Hero() {
 
           {/* Download CV Button */}
           <motion.a
-            href="https://drive.google.com/file/d/1_jTCLHkKkNdLMX1JgDViek9FeXI3E9yI/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1pDx0bOSonkJ0OfJC6zzDvOBZUv1_B1Ji/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.9 }}
