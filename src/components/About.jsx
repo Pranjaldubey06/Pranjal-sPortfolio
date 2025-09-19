@@ -39,7 +39,7 @@ function About() {
           <div className="absolute z-0 w-50  h-50   sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-60 -top-5 left-5"></div>
           <header>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 mt-18 sm:mt-32">
-              About Me
+              About  <span className="text-purple-400">Me</span>
             </h1>
           </header>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">

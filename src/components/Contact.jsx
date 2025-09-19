@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="absolute z-0 w-72 h-72 md:w-96 md:h-96 bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] rounded-full blur-3xl opacity-50"></div>
         <img
           src={ProfileMain}
-          className="relative z-10 w-72 sm:w-80 md:w-[300px] lg:w-[400px] xl:w-[500px] object-contain animate-pulse"
+          className="relative z-10 w-72 sm:w-80 md:w-[300px] lg:w-[400px] xl:w-[500px] object-contain"
           alt="Robot Illustration"
         />
       </aside>
